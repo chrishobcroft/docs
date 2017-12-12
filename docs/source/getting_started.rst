@@ -33,7 +33,7 @@ This will start a Livepeer node.
 Broadcast a video
 ------------------------
 
-In another terminal window::
+If you are using OS X, then in another terminal window::
 
     $ ./livepeer_cli
     
@@ -46,7 +46,7 @@ Select Broadcast a video. This will print out a manifestID, and you are now stre
   ManifestID: 1220cad22d9509e03e61e9995f912f348aa3ccb4bc07a5325fe14a4c1dd4bd2cffa3f1841bda0921035bd431636bbc0daac03ae3ea1a3005bec9dc93974af98019a4
   Type `q` to stop broadcasting
 
-
+If you are using Linux, download and install OBS from http://obsproject.com, and in "Settings", select "Stream" and input URL http://localhost:1935/streams and leave the Stream key empty. The streamID for the stream can be found in the terminal window running the livepeer node, and is marked with "New HLS Video".
 
 .. _stream:
 
@@ -55,7 +55,7 @@ Play the stream
 
 - Copy the manifestID.
 - Visit http://media.livepeer.org/player.html in your browser.
-- Paste the manifestID and press play.
+- Paste the manifestID to where it says "Stream ID Here..." and press "Start".
 
 You should now see your stream. Anyone else on your own private Livepeer test network should also be able to see your stream. 
 
