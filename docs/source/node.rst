@@ -82,7 +82,7 @@ The testnet contains faucets for providing you with test ETH and test Livepeer T
 
 * Get some test eth from the eth faucet from http://eth-testnet.livepeer.org/.
 
-  * Note: some members have experienced problems getting test eth from the eth faucet. If you are experiencing this, please contact us at https://gitter.im/livepeer/Lobby and we will send you some test eth.
+.. note:: some members have experienced problems getting test eth from the eth faucet - with the error message "nonce too low". If you are experiencing this, or other errors, please contact us at https://gitter.im/livepeer/Lobby and we will send you some test eth.
 
   * Make sure to use the Eth account address printed out above in ``livepeer_cli``. Remember to add 0x as a prefix to address, if not present.
 
