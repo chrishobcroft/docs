@@ -80,7 +80,11 @@ Livepeer CLI will print out your account address, ETH balance, Livepeer token ba
 
 The testnet contains faucets for providing you with test ETH and test Livepeer Token (LPT), which you will need to take other actions in Livepeer.
 
-* Get some test eth from the eth faucet from http://eth-testnet.livepeer.org/. Make sure to use the Eth account address printed out above in ``livepeer_cli``. Remember to add 0x as a prefix to address, if not present.
+* Get some test eth from the eth faucet from http://eth-testnet.livepeer.org/.
+
+  * Note: some members have experienced problems getting test eth from the eth faucet. If you are experiencing this, please contact us at https://gitter.im/livepeer/Lobby and we will send you some test eth.
+
+  * Make sure to use the Eth account address printed out above in ``livepeer_cli``. Remember to add 0x as a prefix to address, if not present.
 
   * You can check that the request is successful by going to ``livepeer_cli`` and selecting Get node status. You should see a positive Eth balance.
 
